@@ -1,0 +1,82 @@
+<app-nav></app-nav>
+
+<div class="flex justify-center items-center min-h-screen bg-gray-100">
+    <div class="flex bg-white p-8 border border-gray-200 rounded-lg shadow-md w-full max-w-4xl">
+      <!-- Imagen -->
+      <div class="w-1/2 relative flex items-center justify-center">
+        <img src="https://www.turistren.com.co/wp-content/uploads/2021/10/Foto-tren-turistico.jpg" alt="Tren" class="object-cover rounded-lg w-full h-full" />
+        <div class="absolute top-0 left-0 w-full h-full">
+          <div class="absolute top-0 left-0 w-full h-full rounded-full" style="mix-blend-mode: multiply;"></div>
+        </div>
+      </div>
+      
+      <!-- Formulario -->
+      <div class="w-1/2 p-8">
+        <h1 class="text-3xl font-bold text-center mb-4">Crea tu cuenta</h1>
+        <p class="text-center text-gray-500 mb-6">Campos Obligatorios *</p>
+        <form>
+          <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="nombre">
+              <i class="fas fa-user"></i> Nombre y apellido *
+            </label>
+            <input
+              class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              id="nombre"
+              type="text"
+              placeholder="Nombre y apellido"
+            />
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+              <i class="fas fa-envelope"></i> Correo electrónico *
+            </label>
+            <input
+              class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              id="email"
+              type="email"
+              placeholder="Correo electrónico"
+            />
+          </div>
+          <div class="mb-6">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+              <i class="fas fa-lock"></i> Contraseña *
+            </label>
+            <input
+              class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+              id="password"
+              type="password"
+              placeholder="********"
+            />
+          </div>
+          <div class="flex items-center justify-center mb-4">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              type="button"
+            >
+              Crear Cuenta
+            </button>
+          </div>
+          <p class="text-center text-gray-500 mb-4">
+            ¿Ya tienes cuenta? <a href="#" class="text-blue-500">Entra Aquí</a>
+          </p>
+          <div class="flex items-center justify-center mb-4">
+            <div class="w-full h-px bg-gray-300"></div>
+            <span class="mx-2 text-gray-500">o</span>
+            <div class="w-full h-px bg-gray-300"></div>
+          </div>
+          <div class="flex items-center justify-center">
+            <button
+              class="bg-white hover:bg-gray-100 text-gray-700 font-bold py-2 px-4 rounded border border-gray-300 flex items-center"
+              type="button"
+            >
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1024px-Google_%22G%22_logo.svg.png" alt="Google" class="w-6 h-6 mr-2" />
+              Sign up with Google
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+
+<app-footer></app-footer>
